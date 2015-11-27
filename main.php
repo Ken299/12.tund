@@ -32,7 +32,33 @@
 <!-- #################### -->
 <div class="container-fluid">
 
-<h1>Hello, world!</h1>
 
+	<div class="row">
+	
+		<div class="col-md-6 col-md-offset-1
+		col-sm-8">
+			<div class="jumbotron">
+				<h1>Hello, Jaagup!</h1>
+				<p>...</p>
+				<p><a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a></p>
+			</div>
+		</div>
+		<div class="col-md-3 col-md-offset-1
+		col-sm-4">
+		<h3>Login<h3>
+		<form>
+		  <div class="form-group">
+			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <button type="submit" class="btn btn-success pull-right hidden-xs">Submit</button>
+		  <button type="submit" class="btn btn-success btn-block visible-xs">Submit</button>
+		</form>
+		</div>
+		
+	</div>
+	
 </div>
 <?php require_once("footer.php"); ?>
